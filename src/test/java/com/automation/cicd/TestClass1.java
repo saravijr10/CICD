@@ -25,11 +25,13 @@ public class TestClass1 {
     public void Test1(){
         driver.get("https://www.google.com");
         System.out.println("Test 1 title : "+driver.getTitle());
+        System.out.println("Test 1 title : "+driver.getTitle());
     }
 
     @Test
     public void Test2(){
         driver.get("https://www.google.com");
+        System.out.println("Test 2 title : "+driver.getTitle());
         System.out.println("Test 2 title : "+driver.getTitle());
     }
 
@@ -37,6 +39,7 @@ public class TestClass1 {
     public void Test3(){
         driver.get("https://www.google.com");
         System.out.println("Test 3 title : "+driver.getTitle());
+        System.out.println("Test 2 title : "+driver.getTitle());
     }
 
     @AfterMethod
